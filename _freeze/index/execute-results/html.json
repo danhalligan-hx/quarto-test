@@ -1,0 +1,16 @@
+{
+  "hash": "898cd756b2ffcea2cdb30ccc2171b041",
+  "result": {
+    "markdown": "---\ntitle: \"analysis\"\n---\n\n\nThis is a Quarto website.\n\nTo learn more about Quarto websites visit <https://quarto.org/docs/websites>.\n\n## Air Quality\n\n@fig-airquality further explores the impact of temperature on ozone level.\n\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(ggplot2)\nggplot(airquality, aes(Temp, Ozone)) + \n  geom_point() + \n  geom_smooth(method = \"loess\"\n)\n```\n\n::: {.cell-output-display}\n![Temperature and ozone level.](index_files/figure-html/fig-airquality-1.png){#fig-airquality width=672}\n:::\n:::\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
