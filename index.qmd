@@ -1,5 +1,5 @@
 ---
-title: Airquality analysis"
+title: Airquality analysis
 format:
   html:
     code-fold: true

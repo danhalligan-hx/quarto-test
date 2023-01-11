@@ -6,8 +6,9 @@ website:
   navbar:
     left:
       - href: index.qmd
-        text: Home
-      - about.qmd
+        text: R
+      - href: python.qmd
+        text: Python
 
 format:
   html:
