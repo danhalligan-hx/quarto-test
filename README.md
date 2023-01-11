@@ -11,6 +11,10 @@ This repo demonstrates:
 Thus this provides a self contained reproducible template for performing and reporting ad 
 hoc analyses.
 
+Analyses are performed within a docker container (with R / jupyter installed), and output
+is stored in `_freeze`. It is then possible to publish easily, either outside of the container
+or via a CI pipeline (here implemented for github pages).
+
 More sophisticated hosting could be explored if e.g. database backends are required to display information.
 
 ## Running

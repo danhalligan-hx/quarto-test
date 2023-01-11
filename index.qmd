@@ -1,5 +1,8 @@
 ---
 title: Airquality analysis"
+format:
+  html:
+    code-fold: true
 ---
 
 This is a quick demo of a Quarto website where we'll present `airquality` data.
@@ -16,8 +19,7 @@ To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 library(ggplot2)
 ggplot(airquality, aes(Temp, Ozone)) + 
   geom_point() + 
-  geom_smooth(method = "loess"
-)
+  geom_smooth(method = "loess")
 ```
 
 The data for this analysis are shown below using the `DT` package in R, an
