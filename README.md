@@ -21,6 +21,9 @@ More sophisticated hosting could be explored if e.g. database backends are requi
 * From command pallette run "Dev Containers: Open Folder in Containter" to connect to container for 
   running analysis. On a Mac, any files you create will be owned by your user (not root).
 * Run `quarto render` to build the site.
+* Run `quarto preview` to build the site (broken for docker/M1 mac I think).
+* Run `quarto publish gh-pages` to publish to github pages (you need to run once locally).
+
 
 
 ## Links:
@@ -29,3 +32,4 @@ More sophisticated hosting could be explored if e.g. database backends are requi
 * https://code.visualstudio.com/docs/containers/overview
 * https://code.visualstudio.com/docs/devcontainers/create-dev-container
 * https://code.visualstudio.com/docs/devcontainers/containers
+* https://github.com/quarto-dev/quarto-actions/tree/main/publish
