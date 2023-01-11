@@ -1,9 +1,8 @@
 ---
-title: "analysis"
+title: Airquality analysis"
 ---
 
-This is a Quarto website.
-
+This is a quick demo of a Quarto website where we'll present `airquality` data.
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
 ## Air Quality
@@ -19,4 +18,12 @@ ggplot(airquality, aes(Temp, Ozone)) +
   geom_point() + 
   geom_smooth(method = "loess"
 )
+```
+
+The data for this analysis are shown below using the `DT` package in R, an
+interface to javascript datatables.
+
+```{r}
+library(DT)
+datatable(airquality)
 ```

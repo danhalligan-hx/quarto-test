@@ -15,7 +15,8 @@ RUN install.r \
     renv \
     knitr \
     rmarkdown \
-    quarto
+    quarto \
+    DT
 RUN curl -LO https://quarto.org/download/latest/quarto-linux-amd64.deb
 RUN gdebi --non-interactive quarto-linux-amd64.deb
 EXPOSE 8080
