@@ -1,1 +1,1 @@
-Sitemap: https://danhalligan-hx.github.io/quarto-test/sitemap.xml
+Sitemap: https://github.com/danhalligan-hx/quarto-test/sitemap.xml
